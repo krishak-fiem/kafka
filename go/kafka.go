@@ -84,3 +84,4 @@ func MessageWriter(broker string, topic constants.KafkaTopics, key constants.Kaf
 		fmt.Println("failed to write messages:", err)
 	}
 }
+ 
